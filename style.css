@@ -1,0 +1,38 @@
+h1{
+    color: rgb(0, 17, 255);
+    text-align: center;
+}
+.symp{
+    font-size: 16px;
+}
+#search-bar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #a13c01;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+  }
+  
+#search-bar li {
+    float: left;
+  }
+  
+#search-bar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+#search-bar li a:hover {
+    background-color: #5b2201;
+  }
+  
+#search-bar li a:active {
+    background-color: #fab95f;
+    color: #a13c01;
+  }
